@@ -1,0 +1,4 @@
+.pm2
+.pm2-dev
+node_modules
+package-lock.json
