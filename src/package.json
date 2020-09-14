@@ -8,7 +8,7 @@
     "test": "SET NODE_ENV=test jest",
     "test:watch": "SET NODE_ENV=test jest --watchAll",
     "coverage": "jest --coverage",
-    "tester": "jest"
+    "tester": "jest "
   },
   "repository": {
     "type": "git",
