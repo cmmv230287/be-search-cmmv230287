@@ -5,9 +5,10 @@
   "main": "./endpoint/index.js",
   "scripts": {
     "start": "node",
-    "test": "NODE_ENV=test jest",
-    "test:watch": "NODE_ENV=test jest --watchAll",
-    "coverage": "jest --coverage"
+    "test": "SET NODE_ENV=test jest",
+    "test:watch": "SET NODE_ENV=test jest --watchAll",
+    "coverage": "jest --coverage",
+    "tester": "jest"
   },
   "repository": {
     "type": "git",
